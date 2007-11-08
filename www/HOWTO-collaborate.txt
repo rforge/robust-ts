@@ -69,7 +69,7 @@
  
      [under Linux]
      + use the command shell;
-     + goto your local developing folder;
+     + go to your local developing folder;
      + type in
    
     svn checkout svn+ssh://<your username in r-forge>@svn.r-forge.r-project.org/svnroot/robust-ts
@@ -82,7 +82,7 @@
     with "commit" (with context menu under Windows;
     with "svn update"/ "svn commit" under Linux)
 
-    Note: svn is much more powerful as that  as to  taking  care
+    Note: svn is much more powerful than that  as to  taking  care
           of  consistency (in particular if several programmers are
           working on one file in parallel)  --- for
           details see
