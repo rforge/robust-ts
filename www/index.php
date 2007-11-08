@@ -43,6 +43,7 @@ echo $contents; } ?>
 
 <!-- end of project description -->
 
+<hr style="width: 100%; height: 4px;">
 <h2>Guidelines for package <span
 style="font-family: Courier New,Courier,monospace;">robust-ts</span>:&nbsp;</h2>
 <h3>naming convention&nbsp;</h3>
@@ -261,9 +262,303 @@ style="font-family: Courier New,Courier,monospace;">plot</span>-)function
 </ul>
 </li>
 </ul>
-<font size="-0">Peter
-Ruckdeschel, Nov 07 2007</font>
-<!-- <p> No content added. </p> -->
+
+<br>
+<hr style="width: 100%; height: 4px;">
+<h1><br>
+</h1>
+<h2>Links to additional documents</h2>
+<br>
+<ul>
+<li><big><a href="OpenIssues.txt">Open issues as to using R-Forge<br>
+<br>
+</a></big></li>
+<li><big><a href="HOWTO-collaborate.txt">"HOWTO": What you have to do
+to collaborate in 10 steps</a></big></li>
+</ul>
+<br>
+<br>
+<hr style="width: 100%; height: 4px;">
+
+<h2>Maintained Target / Todo-List for Project "robust-ts"</h2>
+<br>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="2"
+cellspacing="2">
+<tbody>
+<tr>
+<th style="vertical-align: top;">to be robustified: command from
+package "stats"<br>
+</th>
+<th style="vertical-align: top;">robustification / reference<br>
+</th>
+<th style="vertical-align: top;">source of code<br>
+</th>
+<th style="vertical-align: top;">status<br>
+</th>
+<th style="vertical-align: top;">modus<br>
+</th>
+<th style="vertical-align: top;">working on it<br>
+</th>
+<th style="vertical-align: top;">from<br>
+</th>
+<th style="vertical-align: top;">to<br>
+</th>
+</tr>
+<tr>
+<td style="vertical-align: top;">acf / pacf<br>
+</td>
+<td style="vertical-align: top;">Ma/Genton<br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;">done upto user interface<br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;">now<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;">quadrant correlation<br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;">M-estimator<br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">AIC/BIC<br>
+</td>
+<td style="vertical-align: top;">Ronchetti<br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">ar / arima<br>
+</td>
+<td style="vertical-align: top;">GM-estimators<br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;">tau-estimators, diagnostics<br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">[g]arch </td>
+<td style="vertical-align: top;">Boudt<br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;">code goes into fgarch package;<br>
+here: just a wrapper<br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">unitroot tests </td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;">&nbsp;----<br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">filter </td>
+<td style="vertical-align: top;">see packages for Robust Kalman
+Filtering / Robust Signal Extraction<br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">Holt-winters </td>
+<td style="vertical-align: top;">Gelper, Fried, Croux<br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;">Sarah Gelper<br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">spec/spectrum </td>
+<td style="vertical-align: top;">Spangl<br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;">Bernhard Spangl<br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">methods to be adapted:<br>
+plot, print, summary / print.summary, confint, predict, residuals<br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">to be added: function names from
+Fin-Metrics </td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h3>NOTE: </h3>This table is far from complete; so far it is just a starting point;
+please feel free to complete the list; <br>
+in particular fill in the exact references of papers; <br>
+<br>
+<h3>a sort of legend</h3>
+<ul>
+<li>column "source of code" is to capture the fact that maybe we get
+code from outside, <br>
+in particular from Insightful...</li>
+<li>column "modus" will mention if original code resides in another R
+package and is<br>
+simply integrated by some wrapper --- as in the [g]arch case</li>
+<li>more than one person may be listed in the "working on it"; the
+"from" and "to"<br>
+columns are meant to show in which time period a certain collaborator
+has been/ was<br>
+working on this topic<br>
+</li>
+</ul>
+<hr style="width: 100%; height: 4px;">
 
 <p> The <strong>project summary page</strong> you can find 
 <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>

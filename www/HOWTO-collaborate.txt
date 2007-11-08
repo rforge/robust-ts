@@ -1,0 +1,130 @@
+------------------------------------------------------------------------
+"HOWTO": What you have to do to collaborate in 10 steps:
+------------------------------------------------------------------------
+
+
+%%%%%%%%%%%%%
+(1) learn about R-forge
+%%%%%%%%%%%%%
+    
+    download / read the r-forge manual (=RFM)
+     http://r-forge.r-project.org/R-Forge_Manual.pdf
+     (just 5 pages...)
+
+%%%%%%%%%%%%%
+(2)  prepare ssh - key
+%%%%%%%%%%%%%
+   
+    unless already available generate an ssh-key
+     and send the public part of it to r-forge;
+     to do so follow 3.1.1. 2.) /  3.1.2. 1.) & 2.)
+     in RFM
+
+%%%%%%%%%%%%%
+(3) check availability of svn and ssh
+%%%%%%%%%%%%%
+      
+       ---
+      under Windows: install TurtoiseSVN
+       ---see 3.1.1 1.) RFM
+       see also
+      http://svnbook.red-bean.com/
+
+%%%%%%%%%%%%%
+(4) register as r-forge user
+%%%%%%%%%%%%%
+   
+      http://r-forge.r-project.org/account/register.php
+
+    if you want e-mails/ contributions to the corresponding
+    forum to be forwarded to your "standard" mail address
+    take care to check the corresponding option
+
+%%%%%%%%%%%%%
+(5) join "robust-ts" project
+%%%%%%%%%%%%%
+
+     go to the "robust-ts"-project summary in R-forge and
+     click option "request to join" so that I can give you corresponding
+     file access rights:
+
+     http://r-forge.r-project.org/project/request.php?group_id=89
+   
+%%%%%%%%%%%%%
+(6) prepare  your computer for svn-use / register checkout  folder
+%%%%%%%%%%%%%
+
+     create some folder locally on your computer where you want to
+     be working on robust-ts ("working copy" of the archived folder)
+  
+     [under Windows] 
+     after installation of TurtoiseSVN easily done with the context
+     menu (right click!) within Windows Explorer:
+      + use SVN- "Checkout"
+      + in the field "Checkout directory" fill in the name of
+         your (local) developer folder; 
+      + in the field "URL of repository" enter
+ 
+         svn+ssh://<your username in r-forge>@svn.r-forge.r-project.org/svnroot/robust-ts
+ 
+     [under Linux]
+     + use the command shell;
+     + goto your local developing folder;
+     + type in
+   
+    svn checkout svn+ssh://<your username in r-forge>@svn.r-forge.r-project.org/svnroot/robust-ts
+
+    Your local folder now is registered as "Checkout" folder for the archived
+    robust-ts- folder  under r-forge.
+ 
+    After that you may simply get the newest version from r-forge
+    using "update" , and you may send your modification to R-forge
+    with "commit" (with context menu under Windows;
+    with "svn update"/ "svn commit" under Linux)
+
+    Note: svn is much more powerful as that  as to  taking  care
+          of  consistency (in particular if several programmers are
+          working on one file in parallel)  --- for
+          details see
+                    http://svnbook.red-bean.com/
+
+%%%%%%%%%%%%%
+(7) read the package guidelines
+%%%%%%%%%%%%%
+
+     in the Banff workshop, we have worked out some
+     programming guidelines for this package to provide
+     a certain level of consistency within this package
+     see
+
+     http://robust-ts.r-forge.r-project.org/
+
+%%%%%%%%%%%%%
+(8) inscribe/ get inscribed into the target list
+%%%%%%%%%%%%%
+
+    To avoid double work, you should signal other collaborators that you are about to
+    work on some topic of the list.
+    How this list is maintained (automatically/manually) is still an open issue 
+    (see open issue (3)). 
+    For the moment send an e-mail to the admin (Peter Ruckdeschel) to insert / delete
+    you; hopefully,  one day this can be done without the admin interfering.
+  
+
+%%%%%%%%%%%%%
+(9) Collaborate
+%%%%%%%%%%%%%
+
+     under <your checkout-folder>/pkg    and
+     under https://r-forge.r-project.org/plugins/scmsvn/viewcvs.php/pkg/?root=robust-ts 
+     you will now find exactly the (sub-)folder structure of the R-package  "robust-ts"
+     (R, man, inst, data, ....)
+
+      any contributions are welcome
+
+%%%%%%%%%%%%%
+(10) HAPPY r-forging...
+%%%%%%%%%%%%%
+------------------------------------------------------------------------
+   
+
