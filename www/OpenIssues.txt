@@ -29,6 +29,34 @@ Roland Fried's package on robust signal extraction.
 It seems that the R-forge maintainers want to incorporate this
 in the near future (see 3.2.1 in R-forge manual) --- so let's see...
 
+On Jan 14 Stefan Theussl (stefan.theussl@wu-wien.ac.at) who is
+working on setting up R-Forge gave some hints to this question:
+
+Stefan Theussl quoting a yet to be released manual update (draft):
+%---
+In directory /pkg of your project's svn repository it is possible 
+to have more than one package. Each package has to be in an own 
+directory from where the sources get exported and the tarball 
+as well as the binaries get build. A shell script will parse 
+the contents of the directory and look for a DESCRIPTION file. 
+If it is present, it is a valid package directory for the build process.
+
+Example:
+your repository's pkg dir looks like this:
+/pkg/foo
+/pkg/bar
+/pkg/moo
+
+foo and bar each contain a DESCRIPTION file -> they will get exported; 
+moo doesn't -> therefore it gets ignored.
+
+The packages can be installed from within R with install.packages(...). 
+In the upcoming R tab the users will have the possibility to download 
+the package tarball and binaries directly from the web platform.
+%---
+
+So in fact, this is resolved now.
+
 %%%%%%%%%%%%%%%%%%%%
 (3) ([Semi-] automatic) maintenance of a target / todo list
 %%%%%%%%%%%%%%%%%%%%
