@@ -93,6 +93,17 @@ and provided there is not hundreds of volunteers, I think
 this should not mean too much effort for the admin ---
 but I may get disproved as to this.
 
+%---------- new on Jan, 23rd: ------------------------------
+
+In the mean time I have discovered the possibility to create
+new trackers as admin of some project (under tab "Admin"
+go to item "Tracker Admin" under "Tool Admin")
+---maybe it has been there for a while and escaped my notice.
+
+So indeed, one could arrange our task list as a
+"Task List Tracker" already...
+
+
 %%%%%%%%%%%%%%%%%%%%
 (4) Prominent place for  package guidelines and target list
 %%%%%%%%%%%%%%%%%%%%
