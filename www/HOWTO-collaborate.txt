@@ -16,7 +16,6 @@
 %%%%%%%%%%%%%
    
     unless already available generate an ssh-key
-     and send the public part of it to r-forge;
      to do so follow 3.1.1. 2.) /  3.1.2. 1.) & 2.)
      in RFM
 
@@ -49,7 +48,13 @@
      file access rights:
 
      http://r-forge.r-project.org/project/request.php?group_id=89
-   
+
+     after one of the project admin's has accepted your request 
+     send the public part of it to r-forge;
+
+     to do so follow 3.1.1. 2.) /  3.1.2. 1.) & 2.)
+     in RFM
+
 %%%%%%%%%%%%%
 (6) prepare  your computer for svn-use / register checkout  folder
 %%%%%%%%%%%%%
