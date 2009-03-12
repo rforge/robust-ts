@@ -1,0 +1,120 @@
+------------------------------------------------------------------------
+Open issues:
+------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%
+(1) Naming:
+%%%%%%%%%%%%%%%%%%%%
+
+Setting the project's name to "robust-ts" is /not/
+a final definition. As soon as there is an agreement
+on this issue (see "Naming" on the project's home page
+on R-forge) we want to adhere to the generally
+accepted naming convention. So the name
+"robust-ts" is just a working title.
+
+%%%%%%%%%%%%%%%%%%%%
+(2) Umbrella package
+%%%%%%%%%%%%%%%%%%%%
+
+It would be nice to be able to group/bundle the development
+of several R-packages under one umbrella.
+This is not to be confused with an R-bundle like MASS
+where these packages also ship out as this bundle ---
+the packages should retain their separate lives ---
+it is only to better coordinate development of packages that
+are closely related to each other.
+In our case this concerns packages robust-ts, robKalman and
+Roland Fried's package on robust signal extraction.
+It seems that the R-forge maintainers want to incorporate this
+in the near future (see 3.2.1 in R-forge manual) --- so let's see...
+
+On Jan 14 Stefan Theussl (stefan.theussl@wu-wien.ac.at) who is
+working on setting up R-Forge gave some hints to this question:
+
+Stefan Theussl quoting a yet to be released manual update (draft):
+%---
+In directory /pkg of your project's svn repository it is possible 
+to have more than one package. Each package has to be in an own 
+directory from where the sources get exported and the tarball 
+as well as the binaries get build. A shell script will parse 
+the contents of the directory and look for a DESCRIPTION file. 
+If it is present, it is a valid package directory for the build process.
+
+Example:
+your repository's pkg dir looks like this:
+/pkg/foo
+/pkg/bar
+/pkg/moo
+
+foo and bar each contain a DESCRIPTION file -> they will get exported; 
+moo doesn't -> therefore it gets ignored.
+
+The packages can be installed from within R with install.packages(...). 
+In the upcoming R tab the users will have the possibility to download 
+the package tarball and binaries directly from the web platform.
+%---
+
+So in fact, this is resolved now.
+
+%%%%%%%%%%%%%%%%%%%%
+(3) ([Semi-] automatic) maintenance of a target / todo list
+%%%%%%%%%%%%%%%%%%%%
+
+In the banff workshop we have agreed upon a target list
+of contents to be successively implemented / included to
+this package. To avoid double work, the idea was that
+anyone who is working on one item of the list is signalling
+this to anyone else who might be interested in doing so.
+
+So we would provide a maintained list, where this
+"signallings" are gathered and which should be visible to
+anyone browsing through the R-Forge pages, no matter
+if he is subscribed to this project or not.
+Subscribers however should get notified by e-mail on
+every change of this list.
+
+Now suppose someone new wants to contribute code; then he
+subscribes to R-forge, sees this table, selects the topic to
+work on; if someone else is working on it,  too, he simply
+contacts this person by e-mail; else he simply inscribes
+(or gets inscribed) into the table.
+
+If someone stops working on this topic this should also be
+signalled on this list.
+
+So far this is only "planned" and we do not know the preferred
+way to do this in R-forge. In this issue, I have contacted
+Stefan Theussl, the person who is the admin of the R-forge
+project, so let us hope that this sort of feature may even get
+integrated to R-forge.
+If not we could at least sort of manually maintain this list,
+and provided there is not hundreds of volunteers, I think
+this should not mean too much effort for the admin ---
+but I may get disproved as to this.
+
+%---------- new on Jan, 23rd: ------------------------------
+
+In the mean time I have discovered the possibility to create
+new trackers as admin of some project (under tab "Admin"
+go to item "Tracker Admin" under "Tool Admin")
+---maybe it has been there for a while and escaped my notice.
+
+So indeed, one could arrange our task list as a
+"Task List Tracker" already...
+
+
+%%%%%%%%%%%%%%%%%%%%
+(4) Prominent place for  package guidelines and target list
+%%%%%%%%%%%%%%%%%%%%
+
+So far we may easily insert these two lists into the package
+home-page
+
+http://robust-ts.r-forge.r-project.org/
+
+but it would be nice to have them on the summary page
+so that everyone entering the project will see this on first
+sight.
+
+
