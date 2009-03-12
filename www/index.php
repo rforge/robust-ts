@@ -80,7 +80,7 @@ agreed upon<br>
 <li>common "style" not necessary<br>
 </li>
 <li>no encapsulation</li>
-<li>gives "alpha verion" --- extensive testing at this stage
+<li>gives "alpha version" --- extensive testing at this stage
 possible and necessary<br>
 </li>
 </ul>
@@ -309,13 +309,31 @@ package "stats"<br>
 </td>
 <td style="vertical-align: top;">Ma/Genton<br>
 </td>
-<td style="vertical-align: top;"><br>
+<td style="vertical-align: top;">Bernhard Spangl<br>
 </td>
 <td style="vertical-align: top;">done upto user interface<br>
 </td>
 <td style="vertical-align: top;"><br>
 </td>
+<td style="vertical-align: top;">Roland Fried, Bernhard Spangl<br>
+</td>
 <td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;">now<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;">M&ouml;tt&ouml;nen, Koivunen, Oja<br>
+</td>
+<td style="vertical-align: top;">Bernhard Spangl<br>
+</td>
+<td style="vertical-align: top;">done upto user interface<br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;">Roland Fried, Bernhard Spangl<br>
 </td>
 <td style="vertical-align: top;"><br>
 </td>
@@ -326,6 +344,42 @@ package "stats"<br>
 <td style="vertical-align: top;"><br>
 </td>
 <td style="vertical-align: top;">quadrant correlation<br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;">MCD<br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;">RA<br>
 </td>
 <td style="vertical-align: top;"><br>
 </td>
@@ -381,9 +435,9 @@ package "stats"<br>
 </td>
 <td style="vertical-align: top;">GM-estimators<br>
 </td>
-<td style="vertical-align: top;"><br>
+<td style="vertical-align: top;">Bernhard Spangl<br>
 </td>
-<td style="vertical-align: top;"><br>
+<td style="vertical-align: top;">done; to be moved from/linked to robKalman<br>
 </td>
 <td style="vertical-align: top;"><br>
 </td>
@@ -416,9 +470,9 @@ package "stats"<br>
 <td style="vertical-align: top;">[g]arch </td>
 <td style="vertical-align: top;">Boudt<br>
 </td>
-<td style="vertical-align: top;"><br>
+<td style="vertical-align: top;">Kris Boudt<br>
 </td>
-<td style="vertical-align: top;"><br>
+<td style="vertical-align: top;">done<br>
 </td>
 <td style="vertical-align: top;">code goes into fgarch package;<br>
 here: just a wrapper<br>
@@ -486,7 +540,7 @@ Filtering / Robust Signal Extraction<br>
 <td style="vertical-align: top;">spec/spectrum </td>
 <td style="vertical-align: top;">Spangl<br>
 </td>
-<td style="vertical-align: top;"><br>
+<td style="vertical-align: top;">Bernhard Spangl<br>
 </td>
 <td style="vertical-align: top;"><br>
 </td>
